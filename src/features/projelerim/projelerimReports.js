@@ -1,0 +1,352 @@
+/**
+ * Projelerim toplantı raporları — TÜBİTAK, Turkcell, Teknofest proje toplantıları.
+ * Yapı staj raporları ile aynı; içerik proje/yarışma odaklı.
+ */
+
+export const PROJE_MEETING_REPORTS = [
+  {
+    id: 'p1',
+    title: 'TÜBİTAK 2209-A – Proje özeti ve literatür toplantısı',
+    date: '2025-02-12T10:00:00',
+    durationMin: 50,
+    participants: [
+      { name: 'Caner Giden', role: 'Proje sahibi' },
+      { name: 'Doç. Dr. Elif Kaya', role: 'Danışman' },
+      { name: 'Arş. Gör. Burak Yıldız', role: 'Proje asistanı' },
+    ],
+    topic: '2209-A başvuru süreci, proje özeti taslağı ve literatür taraması stratejisi.',
+    summary: 'TÜBİTAK 2209-A başvuru takvimi ve değerlendirme kriterleri gözden geçirildi. Proje özetinin 500 kelime sınırına uygun taslağı üzerinde çalışıldı. Literatür taramasında kullanılacak anahtar kelimeler ve veritabanları (IEEE, ScienceDirect, Scopus) belirlendi. Danışman, metodoloji bölümünün netleştirilmesini önerdi.',
+    keyTerms: ['2209-A', 'Literatür taraması', 'Proje özeti', 'Metodoloji', 'Başvuru kriterleri'],
+    references: [
+      { title: 'TÜBİTAK 2209-A Başvuru Rehberi', author: 'TÜBİTAK', year: '2025', note: 'Güncel başvuru koşulları' },
+      { title: 'Bilimsel Proje Yazımı', author: 'TÜBİTAK', url: 'https://www.tubitak.gov.tr' },
+    ],
+    agenda: [
+      'Başvuru takvimi ve son tarihler',
+      'Proje özeti taslağı',
+      'Literatür taraması planı',
+      'Sonraki adımlar',
+    ],
+    keyPoints: [
+      'Proje özeti 15 Mart’a kadar danışman onayına sunulacak.',
+      'Literatür taramasında en az 15 güncel kaynak hedefleniyor.',
+      'Metodoloji bölümünde nicel/nitel yöntem ayrımı net yapılacak.',
+    ],
+    decisions: [
+      'Proje özeti taslağı 18 Şubat’a kadar danışmana iletilecek.',
+      'Literatür taraması için anahtar kelime listesi bu hafta paylaşılacak.',
+      'Haftalık proje toplantıları Salı 10:00’da yapılacak.',
+    ],
+    actionItems: [
+      { who: 'Caner Giden', what: 'Proje özeti taslağını 500 kelimeye indir ve gönder', dueDate: '18 Şubat 2025' },
+      { who: 'Caner Giden', what: 'Literatür anahtar kelime listesini hazırla', dueDate: '14 Şubat 2025' },
+      { who: 'Doç. Dr. Elif Kaya', what: 'Metodoloji şablonu paylaş', dueDate: '16 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Doç. Dr. Elif Kaya', role: 'Danışman', text: '2209-A’da özet çok kritik. Değerlendiriciler ilk buradan bakıyor. 500 kelimeyi aşmayın, net ve somut ifadeler kullanın.', time: '10:05' },
+      { speaker: 'Caner Giden', role: 'Proje sahibi', text: 'Literatürde özellikle son 5 yıl ve hakemli dergilere odaklanacağım. Listeyi yarın paylaşırım.', time: '10:28' },
+      { speaker: 'Arş. Gör. Burak Yıldız', role: 'Proje asistanı', text: 'Scopus ve Web of Science tarafında erişim üniversite kütüphanesinden mevcut. Örnek arama sorgularını da ekleyebilirim.', time: '10:42' },
+    ],
+    tags: ['TÜBİTAK', '2209-A', 'Literatür'],
+  },
+  {
+    id: 'p2',
+    title: 'TÜBİTAK – Danışman onayı ve taslak rapor görüşmesi',
+    date: '2025-02-18T14:00:00',
+    durationMin: 45,
+    participants: [
+      { name: 'Caner Giden', role: 'Proje sahibi' },
+      { name: 'Doç. Dr. Elif Kaya', role: 'Danışman' },
+    ],
+    topic: 'Taslak raporun danışman incelemesi, düzeltmeler ve başvuru öncesi kontrol listesi.',
+    summary: 'Proje taslak raporu danışman tarafından incelendi. Özet bölümünde birkaç cümlenin netleştirilmesi, metodoloji kısmında örneklem büyüklüğü gerekçesinin eklenmesi istendi. Etik kurul başvurusunun başvuru öncesi tamamlanması kararlaştırıldı.',
+    keyTerms: ['Taslak rapor', 'Danışman onayı', 'Etik kurul', 'Değerlendirme kriterleri'],
+    references: [
+      { title: '2209-A Değerlendirme Formu', author: 'TÜBİTAK', year: '2025' },
+    ],
+    agenda: [
+      'Taslak rapor incelemesi',
+      'Düzeltme maddeleri',
+      'Etik kurul süreci',
+      'Son başvuru tarihi',
+    ],
+    keyPoints: [
+      'Özet bölümünde “amaç” ve “beklenen çıktı” cümleleri güçlendirilecek.',
+      'Metodolojiye örneklem büyüklüğü gerekçesi (istatistiksel güç vb.) eklenecek.',
+      'Etik kurul başvurusu 20 Şubat’a kadar yapılacak.',
+    ],
+    decisions: [
+      'Düzeltmeler 22 Şubat’a kadar tamamlanacak ve tekrar danışmana iletilecek.',
+      'Etik kurul evrakı danışman imzası ile bu hafta teslim edilecek.',
+    ],
+    actionItems: [
+      { who: 'Caner Giden', what: 'Taslak rapora danışman notlarını işle ve yeniden gönder', dueDate: '22 Şubat 2025' },
+      { who: 'Caner Giden', what: 'Etik kurul başvuru formunu doldur ve imza için danışmana ilet', dueDate: '20 Şubat 2025' },
+      { who: 'Doç. Dr. Elif Kaya', what: 'Etik kurul formunu imzala ve idareye teslim et', dueDate: '21 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Doç. Dr. Elif Kaya', role: 'Danışman', text: 'Özet kısmında “amaç”ı tek cümlede okuyucu net anlasın diye yeniden yazalım. Şu an biraz dağınık.', time: '14:10' },
+      { speaker: 'Caner Giden', role: 'Proje sahibi', text: 'Metodolojiye örneklem büyüklüğü gerekçesini ekleyeceğim. G*Power ile hesapladığım değeri de ekleyebilirim.', time: '14:25' },
+      { speaker: 'Doç. Dr. Elif Kaya', role: 'Danışman', text: 'Evet, güç analizi eklemek değerlendiriciler için artı olur. Etik kurul evrakını da unutmayalım.', time: '14:38' },
+    ],
+    tags: ['TÜBİTAK', 'Danışman', 'Taslak'],
+  },
+  {
+    id: 'p3',
+    title: 'Turkcell Geleceği Yazanlar – Sprint ve API entegrasyonu',
+    date: '2025-02-11T11:00:00',
+    durationMin: 55,
+    participants: [
+      { name: 'Caner Giden', role: 'Takım üyesi' },
+      { name: 'Selin Özkan', role: 'Takım lideri' },
+      { name: 'Mentor Ahmet', role: 'Turkcell Mentor' },
+    ],
+    topic: 'Bu haftaki sprint hedefleri, API entegrasyonu ilerlemesi ve canlı toplantı tarihi.',
+    summary: 'Turkcell Geleceği Yazanlar projesinde bu haftanın sprint hedefleri paylaşıldı. API entegrasyonu ve test aşamasındaki görevler dağıtıldı. Canlı toplantı Çarşamba 11:00’da yapılacak. Swagger dokümantasyonunun güncel tutulması vurgulandı.',
+    keyTerms: ['Sprint', 'API entegrasyonu', 'Swagger', 'Test', 'Geleceği Yazanlar'],
+    references: [
+      { title: 'Turkcell Geleceği Yazanlar', url: 'https://gelecegiyazanlar.turkcell.com.tr' },
+      { title: 'OpenAPI 3.0', url: 'https://swagger.io/specification/' },
+    ],
+    agenda: [
+      'Sprint hedefleri',
+      'API entegrasyon durumu',
+      'Test planı',
+      'Canlı toplantı',
+    ],
+    keyPoints: [
+      'Tüm endpoint’ler Swagger’da dokümante edilecek.',
+      'Integration testleri Cuma’ya kadar tamamlanacak.',
+      'Jüri sunumu için demo senaryosu belirlenecek.',
+    ],
+    decisions: [
+      'API dokümantasyonu her merge’den sonra güncellenecek.',
+      'Canlı toplantı her Çarşamba 11:00’da yapılacak.',
+      'Jüri sunum tarihi haftaya açıklanacak.',
+    ],
+    actionItems: [
+      { who: 'Caner Giden', what: 'Swagger dokümantasyonunu güncelle ve PR aç', dueDate: '13 Şubat 2025' },
+      { who: 'Selin Özkan', what: 'Demo senaryosu taslağını paylaş', dueDate: '14 Şubat 2025' },
+      { who: 'Mentor Ahmet', what: 'Jüri değerlendirme kriterlerini e-posta ile ilet', dueDate: '15 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Mentor Ahmet', role: 'Turkcell Mentor', text: 'Bu hafta API entegrasyonu ve test aşaması. Canlı toplantı Çarşamba 11:00.', time: '11:02' },
+      { speaker: 'Caner Giden', role: 'Takım üyesi', text: 'API dokümantasyonunu güncelledim. Swagger linkini kanala bıraktım.', time: '11:20' },
+      { speaker: 'Selin Özkan', role: 'Takım lideri', text: 'Sunum slaytları Cuma’ya hazır olsun. Jüri değerlendirmesi haftaya.', time: '11:45' },
+    ],
+    tags: ['Turkcell', 'API', 'Sprint'],
+  },
+  {
+    id: 'p4',
+    title: 'Turkcell – Jüri sunumu hazırlığı ve provası',
+    date: '2025-02-14T15:00:00',
+    durationMin: 40,
+    participants: [
+      { name: 'Caner Giden', role: 'Takım üyesi' },
+      { name: 'Selin Özkan', role: 'Takım lideri' },
+      { name: 'Deniz Kılıç', role: 'Takım üyesi' },
+      { name: 'Mentor Ahmet', role: 'Turkcell Mentor' },
+    ],
+    topic: 'Jüri sunumu slaytları, demo akışı ve soru-cevap provası.',
+    summary: 'Jüri sunumu için slayt yapısı ve konuşmacı sırası belirlendi. Demo akışı (giriş, problem, çözüm, canlı demo, sonuç) üzerinde anlaşıldı. Olası jüri soruları listelendi ve cevaplar paylaşıldı. Prova tarihi 18 Şubat olarak kararlaştırıldı.',
+    keyTerms: ['Jüri sunumu', 'Demo', 'Slayt', 'Prova'],
+    references: [],
+    agenda: [
+      'Slayt yapısı ve bölümler',
+      'Konuşmacı sırası ve süreler',
+      'Demo senaryosu',
+      'Olası sorular ve cevaplar',
+    ],
+    keyPoints: [
+      'Sunum 10 dakika, demo 5 dakika, soru-cevap 5 dakika ile sınırlı.',
+      'Teknik sorunlara karşı yedek ekran/video hazırlanacak.',
+      'En sık sorulacak 5 soru için cevap notları paylaşılacak.',
+    ],
+    decisions: [
+      'Slaytlar 16 Şubat’a kadar son haline getirilecek.',
+      'Prova 18 Şubat 14:00’te yapılacak.',
+      'Demo yedeği olarak 2 dakikalık video kaydı alınacak.',
+    ],
+    actionItems: [
+      { who: 'Selin Özkan', what: 'Son slayt versiyonunu paylaş', dueDate: '16 Şubat 2025' },
+      { who: 'Caner Giden', what: 'Demo yedek videosunu kaydet ve link paylaş', dueDate: '17 Şubat 2025' },
+      { who: 'Deniz Kılıç', what: 'Soru-cevap notlarını dokümante et', dueDate: '15 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Mentor Ahmet', role: 'Turkcell Mentor', text: 'Jüride en çok “farkınız ne?” ve “ölçeklenebilirlik” soruluyor. Bu ikisine net cevap hazırlayın.', time: '15:10' },
+      { speaker: 'Selin Özkan', role: 'Takım lideri', text: 'Sunum 10, demo 5, soru-cevap 5 dakika. Zamanı aşmayalım.', time: '15:22' },
+      { speaker: 'Caner Giden', role: 'Takım üyesi', text: 'Demo için yedek video alayım, bağlantı koparsa kullanırız.', time: '15:35' },
+    ],
+    tags: ['Turkcell', 'Jüri', 'Sunum'],
+  },
+  {
+    id: 'p5',
+    title: 'Teknofest – Tasarım raporu ve mühendislik hesapları',
+    date: '2025-02-10T14:00:00',
+    durationMin: 60,
+    participants: [
+      { name: 'Caner Giden', role: 'Takım üyesi' },
+      { name: 'Takım Kaptanı Ali', role: 'Kaptan' },
+      { name: 'Mühendislik ekibi', role: 'Ekip' },
+    ],
+    topic: 'Teknofest roket kategorisi tasarım raporu, mühendislik hesapları ve test planı. Teslim tarihi 1 Mart.',
+    summary: 'Teknofest roket kategorisi için tasarım raporu bölümleri ve sorumluluklar paylaşıldı. Mühendislik hesapları (itki, ağırlık, stabilite) ve test planı görüşüldü. Simülasyon sonuçlarının rapora eklenmesi, atölye toplantısının 14:00’te yapılması kararlaştırıldı.',
+    keyTerms: ['Tasarım raporu', 'Mühendislik hesapları', 'Test planı', 'Simülasyon', 'Teknofest'],
+    references: [
+      { title: 'Teknofest Roket Yarışması Şartnamesi', author: 'Teknofest', year: '2025' },
+      { title: 'Tasarım Raporu Şablonu', author: 'Teknofest', note: 'Resmi şablon' },
+    ],
+    agenda: [
+      'Tasarım raporu bölümleri',
+      'Mühendislik hesapları durumu',
+      'Simülasyon ve test planı',
+      'Teslim tarihi ve atölye',
+    ],
+    keyPoints: [
+      'Tasarım raporu 1 Mart’ta teslim; mühendislik hesapları ve test planı dahil.',
+      'Simülasyon sonuçları rapora grafik ve tablolarla eklenecek.',
+      'Atölye çalışmaları Salı ve Perşembe 14:00’te.',
+    ],
+    decisions: [
+      'Rapor bölümleri ekip üyelerine dağıtıldı; taslak 20 Şubat’ta birleştirilecek.',
+      'Simülasyon sonuçları 15 Şubat’a kadar paylaşılacak.',
+      'Atölye toplantıları 14:00’te sabitlendi.',
+    ],
+    actionItems: [
+      { who: 'Caner Giden', what: 'Simülasyon sonuçlarını rapor formatında paylaş', dueDate: '15 Şubat 2025' },
+      { who: 'Takım Kaptanı Ali', what: 'Tüm bölümleri birleştirip taslak raporu hazırla', dueDate: '20 Şubat 2025' },
+      { who: 'Mühendislik ekibi', what: 'Hesapları dokümante et ve kaptana ilet', dueDate: '18 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Takım Kaptanı Ali', role: 'Kaptan', text: 'Teknofest roket kategorisi için tasarım raporu 1 Mart’ta teslim. Mühendislik hesapları ve test planı dahil.', time: '14:05' },
+      { speaker: 'Caner Giden', role: 'Takım üyesi', text: 'Simülasyon sonuçları hazır. Paylaşayım mı?', time: '14:25' },
+      { speaker: 'Takım Kaptanı Ali', role: 'Kaptan', text: 'Evet, bugün toplantıda görelim. 14:00’te atölyede buluşalım.', time: '14:28' },
+    ],
+    tags: ['Teknofest', 'Tasarım raporu', 'Roket'],
+  },
+  {
+    id: 'p6',
+    title: 'Teknofest – Atölye planlaması ve malzeme listesi',
+    date: '2025-02-13T14:00:00',
+    durationMin: 45,
+    participants: [
+      { name: 'Caner Giden', role: 'Takım üyesi' },
+      { name: 'Takım Kaptanı Ali', role: 'Kaptan' },
+      { name: 'Atölye sorumlusu', role: 'Sorumlu' },
+    ],
+    topic: 'Atölye kullanım saatleri, malzeme listesi ve güvenlik kontrolleri.',
+    summary: 'Atölye kullanım takvimi ve malzeme listesi güncellendi. Güvenlik kontrolleri ve ekipman kullanım kuralları tekrarlandı. Parça siparişlerinin 20 Şubat’a kadar tamamlanması kararlaştırıldı.',
+    keyTerms: ['Atölye', 'Malzeme listesi', 'Güvenlik', 'Sipariş'],
+    references: [
+      { title: 'Atölye Kullanım Kılavuzu', author: 'Üniversite', year: '2024' },
+    ],
+    agenda: [
+      'Atölye takvimi',
+      'Malzeme ve siparişler',
+      'Güvenlik kuralları',
+      'Sonraki toplantı',
+    ],
+    keyPoints: [
+      'Atölye Salı ve Perşembe 14:00–18:00 arası kullanılacak.',
+      'Tüm malzeme siparişleri 20 Şubat’a kadar verilecek.',
+      'Güvenlik eğitimi belgesi olmayan atölyeye giremeyecek.',
+    ],
+    decisions: [
+      'Malzeme listesi nihai haliyle Cuma’ya kadar paylaşılacak.',
+      'Sipariş sorumlusu Takım Kaptanı Ali olacak.',
+    ],
+    actionItems: [
+      { who: 'Takım Kaptanı Ali', what: 'Malzeme listesini nihaileştir ve siparişleri ver', dueDate: '20 Şubat 2025' },
+      { who: 'Caner Giden', what: 'Eksik malzeme kalemlerini listele ve kaptana ilet', dueDate: '15 Şubat 2025' },
+      { who: 'Atölye sorumlusu', what: 'Güvenlik eğitim tarihlerini paylaş', dueDate: '14 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Atölye sorumlusu', role: 'Sorumlu', text: 'Atölye Salı ve Perşembe 14:00–18:00. Güvenlik eğitimi olmayan giremez.', time: '14:05' },
+      { speaker: 'Takım Kaptanı Ali', role: 'Kaptan', text: 'Malzeme siparişlerini 20 Şubat’a kadar tamamlayalım. Liste Cuma’da nihai olacak.', time: '14:20' },
+      { speaker: 'Caner Giden', role: 'Takım üyesi', text: 'Eksik kalemleri yarın listelerim.', time: '14:35' },
+    ],
+    tags: ['Teknofest', 'Atölye', 'Malzeme'],
+  },
+  {
+    id: 'p7',
+    title: 'TÜBİTAK – Son başvuru öncesi kontrol toplantısı',
+    date: '2025-03-10T09:00:00',
+    durationMin: 35,
+    participants: [
+      { name: 'Caner Giden', role: 'Proje sahibi' },
+      { name: 'Doç. Dr. Elif Kaya', role: 'Danışman' },
+      { name: 'Arş. Gör. Burak Yıldız', role: 'Proje asistanı' },
+    ],
+    topic: '2209-A başvuru evraklarının son kontrolü ve sistem üzerinden yükleme.',
+    summary: 'Başvuru evrakları (proje özeti, taslak rapor, danışman onayı, etik kurul) tek tek kontrol edildi. Eksik veya güncellenecek kısım kalmadı. Sistem üzerinden yükleme 15 Mart’a kadar yapılacak; danışman son onayı 14 Mart’ta verecek.',
+    keyTerms: ['Başvuru', 'Son tarih', 'Evrak kontrolü', 'Sistem yükleme'],
+    references: [
+      { title: 'TÜBİTAK 2209-A Başvuru Sistemi', url: 'https://e-bideb.tubitak.gov.tr' },
+    ],
+    agenda: [
+      'Evrak listesi kontrolü',
+      'Sistem yükleme adımları',
+      'Danışman onay zamanı',
+      'Son tarih hatırlatması',
+    ],
+    keyPoints: [
+      'Tüm evraklar PDF ve isimlendirme kuralına uygun hazırlanacak.',
+      'Danışman 14 Mart’ta son onayı verecek; 15 Mart gece yarısı son başvuru.',
+      'Yükleme sonrası çıktı alınıp arşivlenecek.',
+    ],
+    decisions: [
+      'Evraklar 12 Mart’a kadar sisteme yüklenecek.',
+      'Danışman onayı 14 Mart’ta tamamlanacak.',
+    ],
+    actionItems: [
+      { who: 'Caner Giden', what: 'Tüm evrakları sisteme yükle ve danışmana bildir', dueDate: '12 Mart 2025' },
+      { who: 'Doç. Dr. Elif Kaya', what: 'Sistem üzerinden son onayı ver', dueDate: '14 Mart 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Doç. Dr. Elif Kaya', role: 'Danışman', text: 'Evraklar tamam görünüyor. Sisteme yükleyip 14 Mart’ta ben onaylayacağım. 15 Mart gece yarısına dikkat.', time: '09:10' },
+      { speaker: 'Caner Giden', role: 'Proje sahibi', text: 'PDF’leri isimlendirme kuralına göre hazırladım. Yarın yükleyeceğim.', time: '09:22' },
+    ],
+    tags: ['TÜBİTAK', 'Başvuru', 'Son tarih'],
+  },
+  {
+    id: 'p8',
+    title: 'Turkcell – Proje kapanış ve değerlendirme',
+    date: '2025-02-20T11:00:00',
+    durationMin: 40,
+    participants: [
+      { name: 'Caner Giden', role: 'Takım üyesi' },
+      { name: 'Selin Özkan', role: 'Takım lideri' },
+      { name: 'Mentor Ahmet', role: 'Turkcell Mentor' },
+    ],
+    topic: 'Proje kapanışı, repo arşivleme ve geri bildirim özeti.',
+    summary: 'Turkcell Geleceği Yazanlar projesi jüri sunumu sonrası kapanış toplantısı yapıldı. Repo arşivleme ve README güncellemesi kararlaştırıldı. Mentor geri bildirim özeti paylaştı; takım olarak güçlü yönler ve gelişim alanları konuşuldu.',
+    keyTerms: ['Kapanış', 'Arşiv', 'Geri bildirim', 'README'],
+    references: [],
+    agenda: [
+      'Jüri sonucu özeti',
+      'Repo ve dokümantasyon',
+      'Geri bildirim',
+      'Sertifika ve sonraki adımlar',
+    ],
+    keyPoints: [
+      'Proje repo’su “archived” olarak işaretlenecek; README’de proje özeti güncellenecek.',
+      'Sertifika ve katılım belgesi e-posta ile iletilecek.',
+      'İsteğe bağlı referans mektubu mentor üzerinden talep edilebilir.',
+    ],
+    decisions: [
+      'Repo 22 Şubat’a kadar arşivlenecek.',
+      'README’de proje özeti, teknoloji ve ekran görüntüleri güncellenecek.',
+    ],
+    actionItems: [
+      { who: 'Caner Giden', what: "README'yi güncelle (özet, teknoloji, ekran görüntüleri)", dueDate: '21 Şubat 2025' },
+      { who: 'Selin Özkan', what: "Repo'yu archived olarak işaretle", dueDate: '22 Şubat 2025' },
+      { who: 'Mentor Ahmet', what: 'Sertifika ve katılım belgesini e-posta ile gönder', dueDate: '25 Şubat 2025' },
+    ],
+    transcriptExcerpts: [
+      { speaker: 'Mentor Ahmet', role: 'Turkcell Mentor', text: 'Jüri değerlendirmesi iyi geçti. Repo’yu arşivleyin, README’yi güncel tutun. Sertifika e-posta ile gelecek.', time: '11:05' },
+      { speaker: 'Selin Özkan', role: 'Takım lideri', text: 'README’de proje özeti ve ekran görüntüleri olsun. Ben archived işaretleyeceğim.', time: '11:25' },
+      { speaker: 'Caner Giden', role: 'Takım üyesi', text: 'README’yi yarın güncellerim.', time: '11:38' },
+    ],
+    tags: ['Turkcell', 'Kapanış', 'Arşiv'],
+  },
+]
