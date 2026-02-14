@@ -1,6 +1,6 @@
 # Meet Zone — React
 
-Meet Zone uygulamasının React (Vite + React Router) sürümü.
+Meet Zone uygulamasının React (Vite + React Router) sürümü(1. Versiyon).
 
 ## Tek tıkla başlatma
 
